@@ -1,0 +1,360 @@
+#haut {
+  background: #002758;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  align-items: center;
+}
+
+#haut a {
+  color: white !important;
+  padding-top: 5px;
+}
+
+#haut .material-icons {
+  color: white;
+  text-align: center;
+  display: inline;
+  vertical-align: middle;
+}
+
+#header {
+  background: #2b6ebc;
+  margin-bottom: 15px;
+}
+
+#menu {
+  width: 100%;
+}
+
+#menu a {
+  max-width: 100%;
+  text-align: center;
+}
+
+#logo {
+  background-image: url(../img/Logo.png);
+  background-repeat: no-repeat;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+#ariane,
+#ariane a {
+  background: #002758;
+  height: 38px;
+  color: white !important;
+  align-items: center;
+}
+
+.nav a:hover {
+  color: black !important;
+  border-right: 1px black solid;
+}
+
+#produit {
+  margin-bottom: 80px;
+}
+
+#reco {
+  background: #e0e0e0;
+}
+
+#news {
+  background: #e50040;
+  padding-left: 50px;
+  color: white;
+}
+
+#news h3 {
+  margin-left: 40px;
+}
+
+#footer {
+  background: #011c3b;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 25px !important;
+}
+h4 {
+  font-size: 16px !important;
+}
+
+.card img {
+  height: 13vw;
+  margin-top: 10px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-deck {
+  padding: 50px;
+  transform: scale(0.9);
+}
+
+#news input {
+  margin: 10px;
+}
+
+.form-check-label {
+  text-align: center;
+  display: inline;
+  transform: scale(1.3);
+  padding: 10px;
+}
+
+.breadcrumb {
+  background: transparent !important;
+}
+
+.breadcrumb li {
+  text-align: center;
+}
+
+.breadcrumb a {
+  color: white;
+}
+
+#description {
+  height: 200px;
+}
+
+#taille {
+  border-top: grey solid 1px;
+  border-bottom: grey solid 1px;
+}
+
+#panier a {
+  display: block;
+  color: white !important;
+}
+
+#avis {
+  height: 420px;
+  padding-top: 20px;
+}
+
+#demo img {
+  width: 100%;
+}
+
+#bloc_carou {
+  height: 600px;
+}
+
+.p {
+  position: relative !important;
+  max-width: 100%;
+}
+
+#cadre {
+  height: 630px;
+  border: grey solid 1px;
+}
+
+#description button {
+  margin-bottom: 10px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+#carte {
+  margin-top: 50px;
+  color: black;
+}
+
+#carte a {
+  color: black;
+}
+
+#carte p {
+  margin-top: 15px;
+}
+
+.icon {
+  justify-content: center;
+  display: flex;
+}
+
+.icon a {
+  color: black;
+}
+
+.icon a:hover {
+  color: grey;
+}
+
+.media:hover {
+  color: grey;
+}
+
+.media h4 {
+  margin-bottom: 10px;
+}
+
+.checked {
+  color: orange;
+}
+
+.fa-star {
+  display: inline;
+  margin: -8px;
+  transform: scale(0.5);
+}
+
+h6 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 2px;
+}
+
+h3 a {
+  color: black;
+}
+
+h3 a:hover {
+  color: grey;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.vl {
+  border-right: 1px solid white;
+  height: 150px;
+  margin: 20px 0 20px 25px;
+}
+
+#taille input {
+  background: transparent !important;
+  width: 50px;
+  text-align: center;
+  padding: 10px 9px 10px 9px;
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  margin-top: 30px;
+  color: black;
+  margin: 15px;
+}
+
+#taille input:hover {
+  background: blacK !important;
+  color: white;
+}
+
+#taille input:active {
+  background: green !important;
+  color: white;
+}
+
+#taille input:target {
+  background: black !important;
+}
+
+.pull-right h6 {
+  margin-right: 20px;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+#taille a {
+  margin: auto;
+  padding-top: 20px;
+}
+
+#taille a:hover,
+#taille a:active {
+  text-decoration: underline !important;
+  color: grey !important;
+}
+
+.card:hover {
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#footer img {
+  transform: scale(1.2);
+}
+
+.hr {
+  margin: 30px;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+#b {
+  text-align: center;
+  padding: 0 50px 0 50px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#couleur {
+  margin-top: 20px;
+}
+
+#testa {
+  max-width: 100%;
+  justify-content: center;
+}
+
+#news label {
+  text-align: center;
+  display: inline;
+  vertical-align: middle;
+  margin: auto;
+}
+
+#quantite {
+  max-width: 100%;
+  margin: auto;
+}
+
+#taille .row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+}
+
+iframe {
+  max-width: 90%;
+  width: 800px;
+  border: none;
+  margin-top: -20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#footer a {
+  color: white !important;
+}
+
+#footer ul {
+  list-style-type: none;
+  text-align: left !important;
+}

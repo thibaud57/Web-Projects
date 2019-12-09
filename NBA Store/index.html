@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <title>NBA Store</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Icones-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+  <!-- Header + menu -->
+  <div id="header" class="container-fluid">
+    <!-- Header logo-->
+    <div id="haut" class="row">
+      <div class="col-xs-4 "><a href="#"><i class="material-icons">
+            account_circle
+          </i>Connexion</a></div> <!-- connexion inscription et panier-->
+      <div class="col xs-1"></div>
+      <div class="col-xs-6 pull-right text-right"><a href="#">
+          <i class="material-icons">
+            shopping_cart
+          </i>Mon panier</a></div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-1"></div> <!-- Espace vide-->
+      <div id="logo" class="col-sm-7"></div>
+      <!--Logo-->
+      <div class="col-sm-4"></div> <!-- Contenu droite éventuel-->
+    </div>
+
+    <!-- Menu-->
+    <div class="row">
+      <nav id="menu" class="navbar navbar-expand navbar-light bg-light">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="material-icons">home</i></a>
+          </li>
+          <a class="nav-link" href="#">JOUEURS</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">MAILLOTS <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOMME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FEMME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ENFANTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CHAUSSURES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ACCESSOIRES</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Fil ariane-->
+    <div class="row">
+      <div id="ariane" class="col-sm-12 d-none d-sm-block">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="#">Maillots</a></li>
+          <li class="breadcrumb-item"><a href="#">Equipes</a></li>
+          <li class="breadcrumb-item"><a href="#">Toronto Raptors</a></li>
+          <li class="breadcrumb-item active">Authentic Jersey</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Page-->
+
+  <div id="produit" class="container-fluid">
+    <!-- Produit-->
+
+    <div class="row">
+      <div id="gauche" class="col-sm-6">
+        <!-- Partie gauche-->
+        <!-- Images-->
+        <div class="sticky">
+          <div class="d-flex flex-column">
+            <div id="bloc_carou" class="p-2">
+              <!--Slider-->
+              <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- #region Jssor Slider Begin -->
+                <!-- Generator: Jssor Slider Composer -->
+                <!-- Source: https://www.jssor.com/demos/image-gallery-with-vertical-thumbnail.slider/=edit -->
+                <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                  window.jssor_1_slider_init = function () {
+
+                    var jssor_1_SlideshowTransitions = [
+                      { $Duration: 1200, $Zoom: 1, $Easing: { $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 },
+                      { $Duration: 1000, $Zoom: 11, $SlideOut: true, $Easing: { $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+
+                    ];
+
+                    var jssor_1_options = {
+                      $AutoPlay: 1,
+                      $SlideshowOptions: {
+                        $Class: $JssorSlideshowRunner$,
+                        $Transitions: jssor_1_SlideshowTransitions,
+                        $TransitionsOrder: 1
+                      },
+                      $ArrowNavigatorOptions: {
+                        $Class: $JssorArrowNavigator$
+                      },
+                      $ThumbnailNavigatorOptions: {
+                        $Class: $JssorThumbnailNavigator$,
+                        $Rows: 2,
+                        $SpacingX: 14,
+                        $SpacingY: 12,
+                        $Orientation: 2,
+                        $Align: 156
+                      }
+                    };
+
+                    var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                    /*#region responsive code begin*/
+
+                    var MAX_WIDTH = 960;
+
+                    function ScaleSlider() {
+                      var containerElement = jssor_1_slider.$Elmt.parentNode;
+                      var containerWidth = containerElement.clientWidth;
+
+                      if (containerWidth) {
+
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+                      }
+                      else {
+                        window.setTimeout(ScaleSlider, 30);
+                      }
+                    }
+
+                    ScaleSlider();
+
+                    $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                    $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                    $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                    /*#endregion responsive code end*/
+                  };
+                </script>
+                <style>
+                  /*jssor slider loading skin spin css*/
+                  .jssorl-009-spin img {
+                    animation-name: jssorl-009-spin;
+                    animation-duration: 1.6s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                  }
+
+                  @keyframes jssorl-009-spin {
+                    from {
+                      transform: rotate(0deg);
+                    }
+
+                    to {
+                      transform: rotate(360deg);
+                    }
+                  }
+
+                  /*jssor slider arrow skin 093 css*/
+                  .jssora093 {
+                    display: block;
+                    position: absolute;
+                    cursor: pointer;
+                  }
+
+                  .jssora093 .c {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-width: 400;
+                    stroke-miterlimit: 10;
+                  }
+
+                  .jssora093 .a {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-width: 400;
+                    stroke-miterlimit: 10;
+                  }
+
+                  .jssora093:hover {
+                    opacity: .8;
+                  }
+
+                  .jssora093.jssora093dn {
+                    opacity: .6;
+                  }
+
+                  .jssora093.jssora093ds {
+                    opacity: .3;
+                    pointer-events: none;
+                  }
+
+                  /*jssor slider thumbnail skin 101 css*/
+                  .jssort101 .p {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    box-sizing: border-box;
+                    background: #000;
+                  }
+
+                  .jssort101 .p .cv {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    box-sizing: border-box;
+                    z-index: 1;
+                  }
+
+                  .jssort101 .a {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-width: 400;
+                    stroke-miterlimit: 10;
+                    visibility: hidden;
+                  }
+
+                  .jssort101 .p:hover .cv,
+                  .jssort101 .p.pdn .cv {
+                    border: none;
+                    border-color: transparent;
+                  }
+
+                  .jssort101 .p:hover {
+                    padding: 2px;
+                  }
+
+                  .jssort101 .p:hover .cv {
+                    background-color: rgba(0, 0, 0, 6);
+                    opacity: .35;
+                  }
+
+                  .jssort101 .p:hover.pdn {
+                    padding: 0;
+                  }
+
+                  .jssort101 .p:hover.pdn .cv {
+                    border: 2px solid #fff;
+                    background: none;
+                    opacity: .35;
+                  }
+
+                  .jssort101 .pav .cv {
+                    border-color: #fff;
+                    opacity: .35;
+                  }
+
+                  .jssort101 .pav .a,
+                  .jssort101 .p:hover .a {
+                    visibility: visible;
+                  }
+
+                  .jssort101 .t {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    opacity: .6;
+                  }
+
+                  .jssort101 .pav .t,
+                  .jssort101 .p:hover .t {
+                    opacity: 1;
+                  }
+                </style>
+                <div id="jssor_1"
+                  style="position:relative;margin:0 auto;top:0px;left:0px;width:960px;height:480px;overflow:hidden;visibility:hidden;">
+                  <!-- Loading Screen -->
+                  <div data-u="loading" class="jssorl-009-spin"
+                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
+                      src="img/spin.svg" />
+                  </div>
+                  <div data-u="slides"
+                    style="cursor:default;position:relative;top:0px;left:240px;width:720px;height:480px;overflow:hidden;">
+                    <div>
+                      <img data-u="image" src="img/jersey1.jpg" />
+                      <img data-u="thumb" src="img/jersey1.jpg" />
+                    </div>
+                    <div>
+                      <img data-u="image" src="img/jersey6.jpg" />
+                      <img data-u="thumb" src="img/jersey6.jpg" />
+                    </div>
+                    <div>
+                      <img data-u="image" src="img/jersey3.jpg" />
+                      <img data-u="thumb" src="img/jersey3.jpg" />
+                    </div>
+                    <div>
+                      <img data-u="image" src="img/jersey5.jpg" />
+                      <img data-u="thumb" src="img/jersey5.jpg" />
+                    </div>
+                    <div>
+                      <img data-u="image" src="img/jersey2.jpg" />
+                      <img data-u="thumb" src="img/jersey2.jpg" />
+                    </div>
+                    <div>
+                      <img data-u="image" src="img/jersey4.jpg" />
+                      <img data-u="thumb" src="img/jersey4.jpg" />
+                    </div><a data-u="any" href="https://www.jssor.com" style="display:none"></a>
+
+                  </div>
+                  <!-- Thumbnail Navigator -->
+                  <div data-u="thumbnavigator" class="jssort101"
+                    style="position:absolute;left:50px;top:0px;width:240px;height:480px;" data-autocenter="2"
+                    data-scale-left="0.75">
+                    <div data-u="slides">
+                      <div data-u="prototype" class="p" style="width:150px;height:100px; background: rgba(0,0,0,0.3); ">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                        <svg viewbox="0 0 16000 16000" class="cv">
+                          <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                          <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                          <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <script type="text/javascript">jssor_1_slider_init();
+                </script>
+              </div>
+
+
+              <div id="carte" class="col-sm-12">
+                <!--Carte dessous image-->
+
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home">Description</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">Livraison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu2">Retours</a>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane container active" id="home">
+                    <p>Affichez votre soutien au légendaire joueur des Toronto Raptors avec le maillot Swingman basé sur
+                      l'authentique maillot porté lors des matchs</p>
+                  </div>
+                  <div class="tab-pane container fade" id="menu1">
+                    <p>Le délai de livraison ci-dessus est calculé sur la base du délai de livraison le plus court
+                      possible. Ceci peut changer en fonction du mode de livraison choisi au moment de la validation de
+                      la
+                      commande</p>
+                  </div>
+                  <div class="tab-pane container fade" id="menu2">
+                    <p>Vous pouvez renvoyer tout colis dans les 30 jours suivant sa réception. Le colis doit être dans
+                      son
+                      état original pour pouvoir obtenir le remboursement du prix du colis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div id="droite" class="col-sm-6">
+        <!--Partie droite -->
+
+        <div id="cadre" class="d-flex flex-column">
+          <div id="description" class="p-2">
+            <!-- Description prix ...-->
+            <h3>Maillot Swingman Nike Toronto Raptors - Vince Carter - Homme<span class="badge badge-secondary"
+                style="transform:scale(0.8) !important">New</span></h3>
+            <h3><span style="text-decoration: line-through;">120€</span><span
+                style="color:#e50040;">&nbsp;<strong>80€</strong></span>
+              <div class="pull-right">
+                <link rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="#avis">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></a>
+
+                <span><a href="#avis">
+                    <h6><span class="badge badge-light">14</span>&nbsp;Avis</h6></span></a>
+              </div>
+
+            </h3>
+
+            <span> <button type="button" class="btn btn-success">En Stock</button>
+              <!--Stock-->
+              <!-- Les couleurs-->
+              <div id="couleur" class="pull-right">
+                <h6>Couleurs :
+                  <span class="dot" style="background: white; border: black solid 1.5px;"></span>
+                  <span class="dot" style="background: purple; border: black solid 1.5px;"></span>
+                  <span class="dot" style="background: black; border: black solid 1.5px;"></span>
+                </h6>
+              </div>
+
+            </span>
+
+
+
+          </div>
+
+          <div id="taille" class="p-2">
+            <!-- Les tailles-->
+            <h3>Les tailles</h3>
+            <div class="row">
+              <div id="carre1" class="col-xs-4">
+                <input type="submit" class="btn btn-dark btn-lg" value="XS">
+                <input type="submit" class="btn btn-dark btn-lg" value="L">
+              </div>
+              <div class="col-xs-4">
+                <input type="submit" class="btn btn-dark btn-lg" value="S">
+                <input type="submit" class="btn btn-dark btn-lg" value="XL">
+              </div>
+              <div id="carre2" class="col-xs-4">
+                <input type="submit" class="btn btn-dark btn-lg" value="M">
+                <input type="submit" class="btn btn-dark btn-lg" value="XXL">
+
+              </div>
+
+
+            </div>
+            <a href="#g">
+              <p class="text-center">Guide des tailles</p>
+            </a>
+
+
+          </div>
+
+
+          <div id="quantite" class="container mt-5" style="width: 300px;">
+            <!--Quantité et prix-->
+
+            <input data-prefix="Quantité" id="spinner" type="number" value="0" min="0" max="10" step="1" />
+            <p> <strong>Prix :</strong>&nbsp;<span id="mchange"></span></p>
+
+          </div>
+
+
+          <div id="panier" class="p-2">
+            <!-- Ajouter panier-->
+
+            <a href="#pa" class="btn btn-success btn-lg">
+              <i class="material-icons">
+                add_shopping_cart
+              </i> Ajouter au panier
+            </a>
+            </p>
+          </div>
+        </div>
+
+
+        <div id="avis" class="p-2">
+          <!--Avis-->
+          <h3>Avis</h3>
+
+          <div class="media">
+            <i class="material-icons">
+              sentiment_dissatisfied
+            </i>
+            <div class="media-body">
+              <h4>Mr Avis1</h4>
+              <p>Maillot commandé il y a 3 semaines, toujours rien reçu ... On est loin des 48h promis !</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <i class="material-icons">
+              mood
+            </i>
+            <div class="media-body">
+              <h4>Thibaud</h4>
+              <p>Super qualité et expédition rapide, rien à dire. si je devais lui donner une note à ce site ce serait
+                un 20/20 ;)</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <i class="material-icons">
+              mood
+            </i>
+            <div class="media-body">
+              <h4>Super Testeur</h4>
+              <p>J'ai acheté ce maillot pour l'anniversaire de mon fils, reçu dans les temps, il est heureux comme tout
+                !
+                Merciiiii ...</p>
+            </div>
+          </div>
+          <div class="icon"> <a href="#plus">
+              <i class="material-icons">
+                more_horiz
+              </i></a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fin de la partie haute Début partie basse-->
+
+  <div id="reco" class="container-fluid">
+    <!--Recommendations-->
+
+    <div class="col-md-12 d-none d-md-block align-items-center">
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/reco1.jpg" class="card-img-top" alt="Sweat_Houston">
+          <div class="card-body">
+            <h5 class="card-title">Sweat NBA Houston Rockets</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">39.90€ TTC</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/reco2.jpg" class="card-img-top" alt="Bnadeau">
+          <div class="card-body">
+            <h5 class="card-title">Bandeau Jordan Jumpman</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">11.90€ TTC</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/reco3.jpg" class="card-img-top" alt="Nike_Kobe">
+          <div class="card-body">
+            <h5 class="card-title">Nike Kobe 4 Proto</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">129.90€ TTC</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/reco4.jpg" class="card-img-top" alt="Nike_Lebron">
+          <div class="card-body">
+            <h5 class="card-title">Maillot Lebron James Los Angeles Lakers</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">89.90€ TTC</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div id="news" class="container-fluid">
+    <!--Newsletter-->
+
+    <div class="row d-none d-md-flex">
+      <div class="col-lg-3 col-md-3 d-flex align-items-center">
+        <h3>OBTENEZ UNE REDUCTION DE 10% !</h3>
+        <div class="vl"></div>
+      </div>
+      <div class="col-lg-3  d-none d-lg-flex align-items-center"
+        style="height:200px; margin-left: 20px; text-align: left;">
+        <h4>En fournissant votre adresse électronique, vous acceptez de recevoir des e-mails de notre part concernant
+          les dernières nouveautés et offres de produits. </h4>
+      </div>
+      <div id="testa" class="col-lg-5 col-md-9 d-flex align-items-center">
+        <input type="texte" placeholder="Adresse E-mail">
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Newsletter
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Offres
+          </label>
+        </div>
+        <input type="submit" class="btn btn-dark btn-lg" value="Recevoir">
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+
+  </div>
+
+
+
+  <!-- Footer-->
+  <div id="footer" class="container-fluid">
+
+    <div class="row">
+      <!--Haut-->
+      <div class="col-sm-2"> </div>
+      <div class="col-sm-1 text-center" style="padding-right: 100px; padding-bottom : 20px">
+        <img src="./img/Nba.png" alt="Logo Nba" class="img-responsive">
+      </div>
+      <div class="col-sm-7">
+        <iframe id="inlineFrameExample" title="Inline Frame Example" src="./html/conditions.html">
+        </iframe>
+      </div>
+
+      <div class="hr"></div>
+    </div>
+
+    <div id="b" class="row">
+      <!--Bas-->
+      <div class="col-md-2 col-sm-4">
+        <ul><strong>MON COMPTE</strong>
+          <li><a href="Connexion">Connexion</a></li>
+          <li><a href="Compte">Mon Compte</a></li>
+          <li><a href="Commande">Ma Commande</a></li>
+          <li><a href="Faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <ul><strong>SERVICE CLIENT</strong>
+          <li><a href="Contact">Nous Contacter</a></li>
+          <li><a href="Aide">Aide</a></li>
+          <li><a href="Option">Options de livraison</a></li>
+          <li><a href="Retour">Retours et remboursement</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <ul><strong>PAIEMENT</strong>
+          <li><a href="Cartes">Cartes de paiement acceptées</a></li>
+          <li><a href="Paiement"><img src="./img/paiement.png" alt="carte paiement"></a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <ul><strong>SECURITE</strong>
+          <li><a href="Achats">Achats sécurisés</a></li>
+          <li><a href="Confidentialité">Confidentialité</a></li>
+          <li><a href="Cookie">Cookie</a></li>
+          <li><a href="Cg">Conditions générales</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <ul><strong>SERVICE VERIFIE</strong>
+          <li><a href="Secure"><img src="./img/secure.png" style="margin-top:15px" alt="secure global"></a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <ul><strong>RESEAUX SOCIAUX</strong>
+          <li><a href="Facebook">Facebook</a></li>
+          <li><a href="Twitter">Twitter</a></li>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid text-center">
+    <h6>Replica from nbastore.eu by Thibaud GEISLER</h6>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/bootstrap-input-spinner.js"></script>
+  <script>
+    $("#spinner").inputSpinner();
+
+    $("#spinner").on('change', function (e) {
+      $('#mchange').html($(this).val() * 80 + "€")
+    })
+
+  </script>
+</body>
+
+</html>
